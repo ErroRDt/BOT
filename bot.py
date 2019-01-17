@@ -23,7 +23,7 @@ def textMessage(bot, update):
     else:
         bot.send_message(chat_id=update.message.chat_id, text='Я Вас не совсем понял!')
 # Хендлеры
-info_command_handler = CommandHandler('info', startCommand)
+info_command_handler = CommandHandler('info', infoCommand)
 contact_command_handler = CommandHandler('contact', contactCommand)
 start_command_handler = CommandHandler('start', startCommand)
 text_message_handler = MessageHandler(Filters.text, textMessage)
