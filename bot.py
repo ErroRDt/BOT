@@ -28,8 +28,7 @@ contact_command_handler = CommandHandler('contact', contactCommand)
 start_command_handler = CommandHandler('start', startCommand)
 text_message_handler = MessageHandler(Filters.text, textMessage)
 # Добавляем хендлеры в диспетчер
-dispatcher.add_handler(info
-                       _command_handler)
+dispatcher.add_handler(info_command_handler)
 dispatcher.add_handler(contact_command_handler)
 dispatcher.add_handler(start_command_handler)
 dispatcher.add_handler(text_message_handler)
