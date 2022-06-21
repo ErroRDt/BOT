@@ -9,7 +9,7 @@ future==0.17.1
 heroku==0.1.4
 idna==2.8
 ipaddress==1.0.22
-numpy==1.15.4
+numpy==1.22.0
 pycparser==2.19
 python-dateutil==1.5
 python-telegram-bot==11.1.0
